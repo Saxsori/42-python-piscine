@@ -1,0 +1,14 @@
+pillow==10.0.0
+#   409  sudo apt-get install python3-dev python3-setuptools
+#   410  apt-get install python3-dev python3-setuptools
+#   411  apt-get install python3.10-dev python3.10-setuptools
+#   412  python3.10 -m pip install --upgrade pip
+#   413  python3.10 -m pip install --upgrade Pillow --no-binary :all:
+#   414  sudo apt-get install python3 python-dev python3-dev      build-essential libssl-dev libffi-dev      libxml2-dev libxslt1-dev zlib1g-dev      python-pip
+#   415  apt-get install python3 python-dev python3-dev      build-essential libssl-dev libffi-dev      libxml2-dev libxslt1-dev zlib1g-dev      python-pip
+#   416  apt-get install python3-dev      build-essential libssl-dev libffi-dev      libxml2-dev libxslt1-dev zlib1g-dev      python3-pip
+#   417  python3.10 -m pip install --upgrade pip
+#   418  python3.10 -m pip install --upgrade Pillow --no-binary :all:
+#   419  pip3.10 install -r requirements.txt 
+#   420  pip3.10 install -r requirements.txt 
+
