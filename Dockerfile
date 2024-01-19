@@ -15,7 +15,9 @@ RUN pip3.10 install tqdm flake8 && alias norminette=flake8
 COPY ./requirements.txt /requirements.txt
 
 # req for Module 1
-RUN apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev && pip3.10 install matplotlib pycairo PyGObject numpy && pip3.10 install -r requirements.txt
+RUN apt install -y python3-gi python3-gi-cairo gir1.2-gtk-3.0 libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev 
+
+RUN pip3.10 install matplotlib pycairo PyGObject numpy && pip3.10 install -r /requirements.txt
 
 COPY ./src /src
 
