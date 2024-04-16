@@ -1,6 +1,10 @@
 from load_csv import load
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as mpl
+mpl.use("GTK3Agg") # or mpl.use("GTK3Cairo")
+mpl.get_backend()
+import matplotlib.pyplot as plt # --> this will throw the error 'Namespace Gtk not available'
+
 
 def main () :
 	try:
